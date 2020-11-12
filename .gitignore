@@ -1,14 +1,18 @@
 # build artefacts:
-
 *.o
 *.lo
 *.rsj
 *.ppu
 *.dbg
+*/units/
 
 # vi/vim editor files:
-
 *~
 .*.swp
 
+# ignore backup directories
+*/backup/
+
+# no executables
+examples/deviceinfos
 
